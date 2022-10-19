@@ -56,18 +56,24 @@ body{
 }
 
 .center{
-   max-width: 100%;
-   width: 1440px;
+   max-width: 1440px;
+   width: 100%;
    margin: 0 auto;
 }
 .center-1{
-   max-width: 100%;
-   width: 1320px;
+   max-width: 1320px;
+   width: 100%;
    margin: 0 auto;
 }
 .center-2{
-   max-width: 100%;
-   width: 1160px;
+   max-width: 1160px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.center-3{
+   max-width: 1096px;
+   width: 100%;
    margin: 0 auto;
 }
 .wrapper .header-wrapper{
@@ -266,6 +272,11 @@ body{
    line-height: 28px;
    color: #fff;
    padding-bottom: 21px;
+   cursor: pointer;
+   transition: 0.4s ease-in;
+}
+.section-3 .section-3-content .card:hover{
+   transform: scale(1.1);
 }
 .section-3 .sect-3-hr{
    display: inline-block;
@@ -276,7 +287,7 @@ body{
    border: 2px solid #F7931E;
    width: 303px;
    grid-column: 4;
-
+   cursor: pointer;
 }
 /* section-4 */
 .section-4{
@@ -297,7 +308,6 @@ body{
    font-size: 30px;
    line-height: 34px;
    color: #fff;
-  
 }
 .section-4 .section-4-wrapper .cards-wrapper{
    display: grid;
@@ -320,12 +330,21 @@ body{
    height: 375px;
    overflow: hidden;
    position: relative;
+   cursor: pointer;
+   transition: 0.4s ease-in;
+}
+.section-4 .section-4-wrapper .cards-wrapper .cards .card:hover{
+   transform: scale(1.1);
 }
 .section-4 .section-4-wrapper .cards-wrapper .cards .card img{
    position: absolute;
    top: -47px;
    left: -52px;
+   
+}
 
+.section-4 .section-4-wrapper .cards-wrapper .arrow-left{
+   cursor: pointer;
 }
 .section-4 .section-4-wrapper .cards-wrapper .hr{
    display: grid;
@@ -333,6 +352,7 @@ body{
    grid-row: 2;
    justify-content: center;
    position: relative;
+   cursor: pointer;
 }
 .section-4 .section-4-wrapper .cards-wrapper .hr hr{
    width: 1000px;
@@ -364,10 +384,34 @@ body{
    height: 300px;
    overflow: hidden;
    position: relative;
+   transition: 0.4s ease-in;
+}
+.section-4 .section-4-wrapper .cards-wrapper-2 .cards-2 .card-2:hover{
+   transform: scale(1.1);
 }
 .section-4 .section-4-wrapper .cards-wrapper-2 .cards-2 .card-2 img{
    position: absolute;
    top: -47px;
    left: -52px;
 
+}
+.section-5{
+   padding: 100px 0px 0px;
+}
+.section-5 .section-5-bg .sect-5-content .season-tickets{
+   text-align: center;
+   /* padding: 100px 0px 80px; */
+}
+.section-5 .section-5-bg .sect-5-content{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(5, 1fr);
+}
+.section-5 .section-5-bg .sect-5-content .sect-5-items-1 .sect-header{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+.section-5 .section-5-bg .sect-5-content .sect{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
 }
