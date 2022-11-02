@@ -76,6 +76,62 @@ body{
    width: 100%;
    margin: 0 auto;
 }
+#color-yellow-fw-600{
+   font-weight: 700;
+   color: #F7931E;
+   line-height: 24px;
+   font-size: 16px;
+}
+
+#color-yellow-fw-700-fs-16{
+   font-weight: 700;
+   color: #F7931E;
+   line-height: 24px;
+   font-size: 16px;
+}
+#color-yellow-fw-700{
+   font-weight: 700;
+   color: #F7931E;
+   line-height: 24px;
+   font-size: 18px;
+}
+
+#color-black-fw-400{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color:#0C1417;
+}
+#color-black-fw-500{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color:#0C1417;
+}
+#color-black-fw-600{
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:#0C1417;
+}
+#color-black-fw-700-fs-16{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #0C1417;
+}
+#color-black-fw-700{
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   color: #0C1417;
+}
+#color-black-fw-700-lh-30{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   color: #0C1417;
+}
 .wrapper .header-wrapper{
    height: 950px;
    display: grid;
@@ -397,6 +453,7 @@ body{
 }
 .section-5{
    padding: 100px 0px 0px;
+   background: right bottom -28px url('/images/sect-5-group-bg.png') no-repeat;
 }
 .section-5 .section-5-bg .sect-5-content .season-tickets{
    text-align: center;
@@ -455,4 +512,24 @@ body{
 }
 .section-5 .section-5-bg .sect-5-content .sect-5-wrap .sect .item-2:nth-child(2){
    /* text-align: center; */
+}
+
+.section-6{
+   background: left bottom url('/images/sect-6-bg-rectangle-1.png') no-repeat, left bottom 24px url('/images/sect-6-bg-rectangle-2.png') no-repeat;
+   padding: 0;
+}
+.section-6 .section-5-bg .sect-5-content .season-tickets{
+   padding: 0 0 80px;
+}
+.section-6>.section-5-bg .sect-5-content .sect-5-wrap{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr, 1fr, 1fr;
+   row-gap: 40px;
+}
+.section-6>.section-5-bg .sect-5-content .sect-5-wrap .sect-5-items-1 .sect-header{
+   display: grid;
+   grid-template-columns: 232px, 1fr, 1fr, 1fr, 1fr;
+   column-gap: 35px;
+   text-align: center;
 }
