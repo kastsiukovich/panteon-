@@ -76,6 +76,11 @@ body{
    width: 100%;
    margin: 0 auto;
 }
+.center-4{
+   max-width: 984px;
+   width: 100%;
+   margin: 0 auto;
+}
 #color-yellow-fw-600{
    font-weight: 700;
    color: #F7931E;
@@ -452,7 +457,7 @@ body{
 
 }
 .section-5{
-   padding: 100px 0px 0px;
+   padding: 0px 0px;
    background: right bottom -28px url('/images/sect-5-group-bg.png') no-repeat;
 }
 .section-5 .section-5-bg .sect-5-content .season-tickets{
@@ -465,7 +470,7 @@ body{
 .section-5 .section-5-bg .sect-5-content .sect-5-wrap{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: repeat(5, 1fr);
+   grid-template-rows: 40px 112px 112px 112px 112px;
    row-gap: 40px;
 }
 .section-5 .section-5-bg .sect-5-content .sect-5-wrap .sect-5-items-1 .sect-header{
@@ -510,13 +515,70 @@ body{
    color: #0C1417;
    text-align: left;
 }
-.section-5 .section-5-bg .sect-5-content .sect-5-wrap .sect .item-2:nth-child(2){
-   /* text-align: center; */
+
+
+
+.section-6 .section-6-bg .sect-6-content .season-tickets{
+   text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 34px;
+   padding: 0px 0px 80px;
 }
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 40px 112px 112px;
+   row-gap: 40px;
+}
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect-6-items-1 .sect-header{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   column-gap: 35px;
+   text-align: center;
+}
+
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect-6-items-1 .sect-header .item{
+   padding: 0 0 15px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   color: #0C1417;
+}
+
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect-6-items-1 .sect-header .item:nth-child(1){
+   font-weight: 500;
+   text-align: left;
+}
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect-5-items-1 .sect-header .item:last-child{
+   color: #F7931E;
+}
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect-6-items-1 .sect-6-hr{
+   border: 1px solid rgba(12, 20, 23, 0.5);
+   margin: 0 0 35px;
+}
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   column-gap: 35px;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
+}
+
+.section-6 .section-6-bg .sect-6-content .sect-6-wrap .sect .item-2:first-child{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #0C1417;
+   text-align: left;
+}
+
+
 
 .section-6{
    background: left bottom url('/images/sect-6-bg-rectangle-1.png') no-repeat, left bottom 24px url('/images/sect-6-bg-rectangle-2.png') no-repeat;
-   padding: 0;
+   padding: 0 0 90px;
 }
 .section-6 .section-5-bg .sect-5-content .season-tickets{
    padding: 0 0 80px;
@@ -532,4 +594,60 @@ body{
    grid-template-columns: 232px, 1fr, 1fr, 1fr, 1fr;
    column-gap: 35px;
    text-align: center;
+}
+
+/* section-7 */
+.section-7 .section-7-content{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.section-7 .section-7-content h3{
+   text-align: center;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   color: #0C1417;
+   padding-bottom: 80px;
+}
+.section-7 .section-7-content .sect-7-cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 30px;
+}
+.section-7 .section-7-content .sect-7-cards .sect-7-card{
+   display: grid;
+   justify-items: center;
+}
+.section-7 .section-7-content .sect-7-cards .sect-7-card h4{
+   text-align: center;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   /* color: #F7931E; */
+   padding: 30px 0 20px;
+}
+.section-7 .section-7-content .sect-7-cards .sect-7-card p{
+   text-align: center;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   color: rgba(12, 20, 23, 0.5);
+   padding-bottom: 30px;
+}
+.section-7 .section-7-content .sect-7-cards .sect-7-card .price{
+   padding: 15px 0 15px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+}
+.section-7 .section-7-content .sect-7-cards .sect-7-card .btn-sect-7{
+   margin-bottom: 30px;
+   border: 1px solid #F7931E;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #F7931E;
+   padding: 15px 80px;
+   background-color: #FFF;
+   
 }
