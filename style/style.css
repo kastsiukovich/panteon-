@@ -617,6 +617,13 @@ body{
 .section-7 .section-7-content .sect-7-cards .sect-7-card{
    display: grid;
    justify-items: center;
+   margin-bottom: 30px;
+   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+   background-color: #fff;
+   transition: 0.4s ease-in;
+}
+.sect-7-card:hover h4{
+   color: #F7931E;
 }
 .section-7 .section-7-content .sect-7-cards .sect-7-card h4{
    text-align: center;
@@ -641,13 +648,52 @@ body{
    line-height: 30px;
 }
 .section-7 .section-7-content .sect-7-cards .sect-7-card .btn-sect-7{
-   margin-bottom: 30px;
-   border: 1px solid #F7931E;
+   cursor: pointer;
+   margin: 15px auto;
+   width: 220px;
+   /* transition: 0.4s ease-in; */
+}
+.btn-sect-7 .l{
+   border-color: transparent transparent #f0b879 transparent ;
+   border-style: solid;
+   border-width: 0 0 50px 15px;
+   display: block;
+   float: left;
+   height: 0;
+   width: 0;
+   transition: 0.4s ease-in;
+}
+.btn-sect-7 .r{
+   border-style: solid;
+   border-color: #f0b879 transparent transparent transparent;
+   border-width: 50px 15px 0 0;
+   display: block;
+   float: right;
+   height: 0;
+   width: 0;
+   transition: 0.4s ease-in;
+}
+.btn-sect-7 .center{
+   background: #f0b879;
+   color: #FFF;
+   border: #f0b879;
+   display: block;
+   float: left;
    font-weight: 700;
    font-size: 16px;
-   line-height: 20px;
-   color: #F7931E;
-   padding: 15px 80px;
-   background-color: #FFF;
-   
+   line-height: 50px;
+   width: 190px;
+   overflow: hidden;
+   text-align: center;
+   transition: 0.4s ease-in;
+}
+
+.btn-sect-7:hover .l{
+   border-color: transparent transparent #F7931E transparent;
+}
+.btn-sect-7:hover .r{
+   border-color: #F7931E transparent transparent transparent;
+}
+.btn-sect-7:hover .center{
+   background: #F7931E;
 }
