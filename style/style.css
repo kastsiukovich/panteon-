@@ -715,6 +715,15 @@ footer{
    color: rgba(255, 255, 255, 0.7);
    padding: 50px 0 50px;
 }
+.footer-content .item p{
+   cursor: pointer;
+   transition: 0.4s ease-in;
+  
+}
+.footer-content .item p:hover{
+   color:#F7931E;
+   transform: scale(1.1);
+}
 .img2{
    display: grid;
    grid-template-columns: 23px 23px;
@@ -723,7 +732,13 @@ footer{
 }
 .img2 img{
    display: inline-block;
+   cursor: pointer;
+   transition: 0.4s ease-in;
 }
+.img2 img:hover{
+   transform: scale(1.1);
+}
+
 .footer-content:first-child .img{
    width: 195px;
    height: 65px;
@@ -732,14 +747,28 @@ footer{
 }
 .footer-content:first-child .copiright p{
    padding-bottom: 15px;
+   cursor: default;
 }
 .copiright img{
    display: inline-block;
    margin-right: 15px;
+   
 }
 .copiright p{
    display: inline-block;
 }
 .footer-content:last-child p{
    padding-bottom: 15px;
+   
+}
+.footer-content a{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: rgba(255, 255, 255, 0.7);
+   text-decoration: none;
+   cursor: pointer;
+}
+.footer-content a:hover{
+   color: #F7931E;
 }
