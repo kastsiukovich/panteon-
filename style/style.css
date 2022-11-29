@@ -81,6 +81,11 @@ body{
    width: 100%;
    margin: 0 auto;
 }
+.center-8{
+   max-width: 984px;
+   width: 100%;
+   margin: 0 51px 82px;
+}
 #color-yellow-fw-600{
    font-weight: 700;
    color: #F7931E;
@@ -697,6 +702,42 @@ body{
 .btn-sect-7:hover .center{
    background: #F7931E;
 }
+
+.sect-8{
+   background-color: #0C1417;
+}
+.sect-8-cont{
+   background: url('/images/sect-8-bg.svg') no-repeat;
+   /* z-index: 1; */
+}
+.sect-8-cont-left{
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 34px;
+   color: #fff;
+}
+.sect-8-cont-right .right-card > h3{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #fff;
+}
+.sect-8-cont-right .right-card >p{
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.sect-8-wrap{
+   display: grid;
+   grid-template-rows: 1fr 26px;
+   grid-template-columns: 151px 1fr;
+   row-gap: 30px;
+   column-gap: 55px;
+   padding-top: 100px;
+}
+/* .sect-8-cont-right> */
 
 footer{
    background: #000;
