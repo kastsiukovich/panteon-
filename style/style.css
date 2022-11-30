@@ -716,6 +716,9 @@ body{
    line-height: 34px;
    color: #fff;
 }
+.right-card{
+   cursor: pointer;
+}
 .sect-8-cont-right .right-card > h3{
    font-weight: 700;
    font-size: 16px;
@@ -761,12 +764,52 @@ body{
 }
 .arrows>img{
    display: inline-block;
+   cursor: pointer;
 }
 .arrows img:last-child{
    justify-self: left;
 }
 .arrows img:first-child{
    justify-self: right;
+}
+
+.section-9{
+   background: url('/images/sect-9-bg.png') no-repeat;
+   /* visibility: hidden; */
+}
+.sect-9-wrap{
+   width: 351px;
+   display: grid;
+   width: 100%;
+   grid-template-columns: 351px;
+   justify-content: flex-end;
+   background: rgba(12, 20, 23, 0.4);
+}
+.section-9 .sect-9-bg .sect-9-wrap h4{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   color: #fff;
+   padding: 111px 0 25px;
+}
+
+.sect-9-wrap a{
+   text-decoration: none;
+   padding-bottom: 5px;
+}
+.sect-9-wrap a> span{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: #fff;
+   text-align: center;
+}
+#sect-9-form{
+   display: grid;
+   
+}
+.sect-9-form label{
+   background: url('/images/sect-9-btn-rectangle.svg') no-repeat;
 }
 
 footer{
