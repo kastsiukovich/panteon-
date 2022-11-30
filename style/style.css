@@ -775,7 +775,9 @@ body{
 
 .section-9{
    background: url('/images/sect-9-bg.png') no-repeat;
-   /* visibility: hidden; */
+}
+.sect-9-bg{
+   background: rgba(12, 20, 23, 0.4);
 }
 .sect-9-wrap{
    width: 351px;
@@ -783,7 +785,7 @@ body{
    width: 100%;
    grid-template-columns: 351px;
    justify-content: flex-end;
-   background: rgba(12, 20, 23, 0.4);
+  
 }
 .section-9 .sect-9-bg .sect-9-wrap h4{
    font-weight: 700;
@@ -791,27 +793,66 @@ body{
    line-height: 30px;
    color: #fff;
    padding: 111px 0 25px;
+   text-align: center;
 }
 
 .sect-9-wrap a{
+   text-align: center;
    text-decoration: none;
    padding-bottom: 5px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: #fff;
 }
 .sect-9-wrap a> span{
    font-weight: 500;
    font-size: 18px;
    line-height: 24px;
-   color: #fff;
+   color: #F7931E;
    text-align: center;
+
 }
 #sect-9-form{
    display: grid;
-   
 }
-.sect-9-form label{
+#sect-9-form > p{
+   color: rgba(255, 255, 255, 0.5);
+   font-weight:400;
+   font-size: 14px;
+   line-height: 20px;
+   padding-bottom: 111px;
+   text-align: center;
+}
+.sect-9-btn{
    background: url('/images/sect-9-btn-rectangle.svg') no-repeat;
+   border: 0;
+   width: 280px;
+   height: 60px;
+   margin: 30px 0 20px;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   justify-self: center;
+   transition: 0.4s ease-in-out;
+   cursor: pointer;
 }
+#tel, #us-name{
+   color: rgba(255, 255, 255, 0.5);
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   background: rgba(12, 20, 23, 0.4);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   border-style: none none solid none;
+   padding: 15px 0;
 
+}
+.sect-9-btn:hover{
+   color:#F7931E;
+   transform: scale(1.1);
+}
 footer{
    background: #000;
 }
